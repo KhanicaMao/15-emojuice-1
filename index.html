@@ -8,15 +8,14 @@
   </head>
   <body>
     <header class="header-site">
-      <div class="titre">
+      <div class="title">
         <img src="img/logo.svg" alt="logo"/>
         <p>Boissons végétales préparées avec amour</p>
       </div>
-      <div class="produit">
-        <a href="#produit">Accédez à nos produits</a>
-      </div>
-      <div class="contact">
-        <a href="#contact">Nous contacters</a>
+      <div class="button">
+        <a class="produit" href="#produit">Accédez à nos produits</a>
+      <div class="button">
+        <a class="contact" href="#contact">Nous contacters</a>
       </div>
     </header>
     <div class="introduction">
@@ -32,49 +31,52 @@
             <img src="img/orange.svg" alt="orange"/>
         </div>
     </div>
-    <main class="nos-produits" id="produits">
-      <h2>Nos produits</h2>
-      <article class="product banane">
-        <header class="header-article">
-          <h3 class="titre-product">Jus banane</h3>
-          <p class="text">Notre plus grand classique.</p>
-          <a class="readmore" href="kiwi.html">En savoir plus</a>
-          <img class="vignette" src="img/banane.svg" alt="banane"/>
-        </header>
-      </article>
-      <article class="product kiwi">
-        <header class="header-article">
-          <h3 class="titre-product">Sirop kiwi</h3>
-          <p class="text">En vert et contre tous.</p>
-          <a class="readmore" href="kiwi.html">En savoir plus</a>
-          <img class="vignette" src="img/kiwi.svg" alt="kiwi"/>
-        </header>
-      </article>
-      <article class="product cafe">
-        <header class="header-article">
-          <h3 class="titre-product">Glace au café</h3>
-          <p class="text">«Un espresso pour Georges!»</p>
-          <a class="readmore" href="kiwi.html">En savoir plus</a>
-          <img class="vignette" src="img/café.svg" alt="café"/>
-        </header>
-      </article>
-      <article class="product fraise">
-        <header class="header-article">
-          <h3 class="titre-product">Délice à la fraise</h3>
-          <p class="text">La voilà qui ramène sa fraise.</p>
-          <a class="readmore" href="kiwi.html">En savoir plus</a>
-          <img class="vignette" src="img/fraise.svg" alt="fraise"/>
-        </header>
-      </article>
+    <main class="nos-produits">
+      <h2 id="produit">Nos produits</h2>
+      <div class="product-fruit">
+        <article class="product banane">
+          <header class="header-article">
+            <h3 class="titre-product">Jus banane</h3>
+            <p class="text">Notre plus grand classique.</p>
+            <a class="readmore" href="kiwi.html">En savoir plus</a>
+            <img class="vignette" src="img/banane.svg" alt="banane"/>
+          </header>
+        </article>
+        <article class="product kiwi">
+          <header class="header-article">
+            <h3 class="titre-product">Sirop kiwi</h3>
+            <p class="text">En vert et contre tous.</p>
+            <a class="readmore" href="kiwi.html">En savoir plus</a>
+            <img class="vignette" src="img/kiwi.svg" alt="kiwi"/>
+          </header>
+        </article>
+        <article class="product cafe">
+          <header class="header-article">
+            <h3 class="titre-product">Glace au café</h3>
+            <p class="text">«Un espresso pour Georges!»</p>
+            <a class="readmore" href="kiwi.html">En savoir plus</a>
+            <img class="vignette" src="img/café.svg" alt="café"/>
+          </header>
+        </article>
+        <article class="product fraise">
+          <header class="header-article">
+            <h3 class="titre-product">Délice à la fraise</h3>
+            <p class="text">La voilà qui ramène sa fraise.</p>
+            <a class="readmore" href="kiwi.html">En savoir plus</a>
+            <img class="vignette" src="img/fraise.svg" alt="fraise"/>
+          </header>
+        </article>
+      </div>
     </main>
     <footer>
       <h2>Nous contacter</h2>
       <nav>
-        <div class="produit" id="produit">
-          <a href="">Emojuice@veggies.ch</a>
+        <div class="button" id="contact" >
+          <a class="produit" href="mailto:laurianemimi61@gmail.com"
+          target="_blank">Emojuice@veggies.ch</a>
         </div>
-        <div class="produit" id="contact">
-          <a href="https://www.instagram.com/aphroditevenus_olympus/" 
+        <div class="button">
+          <a class="produit" href="https://www.instagram.com/aphroditevenus_olympus/" 
           target="_blank">Instagram</a>
         </div>
       </nav>
